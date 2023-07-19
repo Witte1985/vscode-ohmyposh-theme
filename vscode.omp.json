@@ -9,7 +9,7 @@
           "foreground": "#00b1da",
           "powerline_symbol": "",
           "properties": {
-            "windows": "\uF871",
+            "windows": "\uF17A",
             "wsl": " \uF17C "
           },
           "style": "powerline",
@@ -20,7 +20,7 @@
           "foreground": "#ffffff",
           "powerline_symbol": "\ue0b0",
           "style": "powerline",
-          "template": " \uF49C  ",
+          "template": " \uF49C ",
           "type": "root"
         },
         {
@@ -38,7 +38,7 @@
           "properties": {
             "folder_icon": "\uf115",
             "folder_separator_icon": " \ue0b1 ",
-            "home_icon": "\uf7db",
+            "home_icon": "\uf46d",
             "style": "agnoster"
           },
           "style": "powerline",
