@@ -7,9 +7,10 @@
         {
           "background": "#999999",
           "foreground": "#ffffff",
-          "style": "plain",
-          "template": " \ue641 {{ .CurrentDate | date .Format }} ",
-          "type": "time"
+          "powerline_symbol": "\ue0b2",
+          "style": "powerline",
+          "template": " \ueba2 {{ .FormattedMs }} ",
+          "type": "executiontime"
         },
         {
           "background": "#666666",
@@ -17,9 +18,10 @@
           "properties": {
             "always_enabled": true
           },
-          "style": "plain",
-          "template": " \ueba2 {{ .FormattedMs }} ",
-          "type": "executiontime"
+          "powerline_symbol": "\ue0b2",
+          "style": "powerline",
+          "template": " \ue641 {{ .CurrentDate | date .Format }} ",
+          "type": "time"
         }
       ],
       "type": "rprompt"
